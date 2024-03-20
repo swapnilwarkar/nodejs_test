@@ -1,0 +1,39 @@
+git clone https://github.com/swapnilwarkar/python_test
+git branch
+git branch -r
+git switch oct_release
+git pull origin oct_release
+
+git add .
+git status 
+git commit -m "added directory"
+git push origin main
+
+echo "# scratchpad_poc" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git push -u origin master
+
+git checkout
+$ git reset --hard
+$ git checkout 
+$ git pull
+
+$ git branch
+$ git branch -r
+$ git log -n2
+$ git reset HEAD
+$ git pull origin master
+
+$ git checkout -b oct_release main  
+$ git checkout oct_release 
+$ git push origin oct_release 
+$ git fetch 
+
+git config --global credential.helper cache
+git config --global user.name ""
+git config --global user.email ""
+git config -l
+export GITHUB_OAUTH_TOKEN=xyz
+export GITHUB_TOKEN=xyz
