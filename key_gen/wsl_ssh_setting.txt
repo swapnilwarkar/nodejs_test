@@ -1,0 +1,5 @@
+wsl setting - select Default profile - Ubuntu. 
+add ssh key to your gitlab or github profile using "SSH Key" section under Edit profile section. 
+
+#COPY file to windows system
+sudo cp /mnt/c/Users/GS-1677/Desktop/gen_key_at_linux_system.sh .
