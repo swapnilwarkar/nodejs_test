@@ -29,7 +29,10 @@ $ git pull origin master
 $ git checkout -b oct_release main  
 $ git checkout oct_release 
 $ git push origin oct_release 
-$ git fetch 
+$ git fetch
+
+git checkout <commit_hash>
+$ git checkout ce95ceff01e4d6d69488ac96f82c5248bfa9ddab 
 
 //If HEAD get deattached from main
 $ git checkout origin/main
