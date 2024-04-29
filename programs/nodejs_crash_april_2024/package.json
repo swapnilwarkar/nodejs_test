@@ -1,5 +1,5 @@
 {
-  "name": "nodejs-crash-2024",
+  "name": "nodejs_crash_2024",
   "version": "1.0.0",
   "description": "Node.js crash course code",
   "main": "index.js",
@@ -7,7 +7,7 @@
   "scripts": {
     "start": "nodemon server2.js"
   },
-  "author": "Brad Traversy",
+  "author": "Swapnil Warkar",
   "license": "MIT",
   "devDependencies": {
     "nodemon": "^3.1.0"
