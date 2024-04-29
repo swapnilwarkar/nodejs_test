@@ -31,6 +31,11 @@ $ git checkout oct_release
 $ git push origin oct_release 
 $ git fetch 
 
+//If HEAD get deattached from main
+$ git checkout origin/main
+$ git checkout main
+$ git merge HEAD
+
 git config --global credential.helper cache
 git config --global user.name ""
 git config --global user.email ""
