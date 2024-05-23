@@ -1,0 +1,3 @@
+vi /home/swap/.aws/config
+vi .ssh/config
+sudo hwclock -s

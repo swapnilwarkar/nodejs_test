@@ -1,0 +1,12 @@
+{
+  "name": "2_nonblocking_code",
+  "version": "1.0.0",
+  "description": "test non blocking code",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "test_server"
+  },
+  "author": "Swapnil Warkar",
+  "license": "MIT"
+}
