@@ -1,3 +1,6 @@
+//Author : Swapnil Warkar
+//Purpose : Testing of simple REST API
+
 const express = require('express');
 const data = require('./data'); // Import data module
 
