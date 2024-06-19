@@ -1,0 +1,20 @@
+npm install
+npm install express
+npm install generate-id
+npm install generate-id@^4.2.0
+npm install mysql2
+
+node index
+
+curl -X POST \
+  http://localhost:3000/users.createImageFromName \  # Assuming endpoint path
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer YOUR_ACCESS_TOKEN" \
+  -d '{ "id": "user_id", "account": { "id": "account_id" } }'
+
+Link : https://www.npmjs.com/  and search for the npm versions. 
+
+mysqld --version
+sudo apt install mysql-server-core-8.0 --fix-missing
+sudo apt install mariadb-server-core-10.3
+
