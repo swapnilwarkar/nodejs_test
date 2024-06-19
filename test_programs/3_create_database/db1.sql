@@ -10,13 +10,10 @@ USE `db1`;
 
 
 CREATE TABLE `users` (
-  `userId` varchar(64) NOT NULL,
-  `accountId` varchar(64) NOT NULL,
-  `title` varchar(50) DEFAULT NULL,
-  `firstName` varchar(100) NOT NULL,
-  `lastName` varchar(100) NOT NULL,
+  `user_id` varchar(64) NOT NULL,
+  `account_id` varchar(64) NOT NULL,
   `email` varchar(100) NOT NULL,
-  PRIMARY KEY (`userId`),
+  PRIMARY KEY (`user_id`),
   UNIQUE KEY `email` (`email`),
-  KEY `accountId` (`accountId`),
+  KEY `accountId` (`account_id`),
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;

@@ -18,3 +18,4 @@ mysqld --version
 sudo apt install mysql-server-core-8.0 --fix-missing
 sudo apt install mariadb-server-core-10.3
 
+
