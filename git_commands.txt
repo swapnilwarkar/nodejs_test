@@ -45,3 +45,5 @@ git config --global user.email ""
 git config -l
 export GITHUB_OAUTH_TOKEN=xyz
 export GITHUB_TOKEN=xyz
+
+git config --list
